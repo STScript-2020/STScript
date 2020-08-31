@@ -68,3 +68,9 @@ the server-side logs in
 > Repeat these steps to run multiple benchmarks
 > for the same configuration.
 
+### Visualising benchmark results
+
+Execute the cells in the `STScript-Benchmarks.ipynb`
+notebook.
+The easiest way is to open the notebook using
+[Google Colab](https://colab.research.google.com/).
