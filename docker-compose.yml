@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  codegen:
+    image: "stscript:latest"
+    volumes:
+      - ./mpst_ts:/home/mpst_ts
+      - ./protocols:/home/protocols
+      - ./sandbox:/home/sandbox
+    hostname: stscript
+    stdin_open: true  # docker run -i
+    tty: true         # docker run -t

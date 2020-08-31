@@ -1,0 +1,19 @@
+module Adder;
+type <typescript> "number" from "" as number;
+type <typescript> "string" from "" as string;
+type <typescript> "boolean" from "" as boolean;
+
+global protocol Adder(role Client, role Svr) {
+  choice at Client {
+    ADD(number, number)   from Client to Svr;
+    RES(number)           from Svr to Client;
+    do Adder(Client, Svr);
+  } or {
+    QUIT(string)          from Client to Svr;
+    choice at Svr {
+      THANKS(string)      from Svr to Client;
+    } or {
+      TERMINATE()         from Svr to Client;
+    }
+  }
+}
