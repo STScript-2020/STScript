@@ -3,7 +3,7 @@
 ## Prerequisites
 * [Node.js](https://nodejs.org/en/)
 * Make sure no processes are listening on port 8080
-  * For macOS/Linux users, run `kill $(lsof -t -i :8080)`
+  * For macOS/Linux users, run `sudo kill $(lsof -t -i :8080)`
 
 ## How to use
 These instructions use the _Battleship_ case study as an example -- change the directory name and apply the same steps to the other case studies accordingly.

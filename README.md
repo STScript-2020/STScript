@@ -88,10 +88,10 @@ the case studies discussed in § 5.2 and the
 running example motivated in § 1.
 
 `case-studies/` directory contains the source
-code for the interactive web applications implemented in § 5.2 -- refer to the README in the directory for how to run the examples.
+code for the interactive web applications implemented in § 5.2 -- refer to the [README](case-studies/README.md) in the directory for how to run the examples.
 
 `benchmarks/` directory contains the performance
-micro-benchmarks discusse in § 5.1 -- refer to the README
+micro-benchmarks discussed in § 5.1 -- refer to the [README](benchmarks/README.md)
 in the directory for how to run the benchmark and
 visualise the results.
 
