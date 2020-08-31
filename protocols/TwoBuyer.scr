@@ -1,4 +1,7 @@
 module TwoBuyer;
+type <typescript> "boolean" from "" as boolean;
+type <typescript> "number" from "" as number;
+type <typescript> "string" from "" as string;
 
 global protocol TwoBuyer(role A, role B, role S)  {
 

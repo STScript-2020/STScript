@@ -1,10 +1,14 @@
 protocols_to_test = [
-    ('protocols/BinaryNoPayload.scr', [
-        ('Hello', 'Bob', ['Alice']),
-        ('LongHello', 'Bob', ['Alice'])
+    ('protocols/Adder.scr', [
+        ('Adder', 'Svr', ['Client']),
     ]),
-    ('protocols/BinaryComplex.scr', [
+    ('protocols/Benchmark.scr', [
+        ('PingPong', 'Svr', ['Client']),
+    ]),
+    ('protocols/Calculator.scr', [
         ('Calculator', 'Svr', ['Client']),
-        ('CompactCalculator', 'Svr', ['Client']),
+    ]),
+    ('protocols/TwoBuyer.scr', [
+        ('TwoBuyer', 'S', ['A', 'B']),
     ]),
 ]
