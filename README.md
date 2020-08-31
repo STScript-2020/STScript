@@ -6,6 +6,7 @@ TypeScript with Routed Multiparty Session Types.
 
 This is an anonymised pre-artifact accompanying
 the CGO paper submission.
+A final artifact will be submitted for evaluation upon paper acceptance.
 
 ## Prerequisites
 
