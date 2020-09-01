@@ -18,4 +18,4 @@ do
   fi
 done
 
-python3.7 -m mpst_ts.tests.system
+python3 -m mpst_ts.tests.system
