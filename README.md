@@ -53,7 +53,7 @@ To generate code for __server-side__ (Node.js) endpoints, run
 e.g.
 
 ```bash
-./stscript.sh protocols/Adder Adder Svr node
+./stscript.sh protocols/Adder.scr Adder Svr node
 ```
 
 The APIs will be generated under `sandbox/node/`.
